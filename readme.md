@@ -13,7 +13,7 @@ This project implements a microservices architecture using Spring Boot and Sprin
 
 ## 🗺️ Architecture Overview
 
-![Architecture Diagram](https://github.com/shoyebmd424/Distributed-Auth-System/blob/main/Authentication.gif)
+![Architecture Diagram](https://github.com/shoyebmd424/product-store-distributed-system/blob/main/Authentication.gif)
 ---
 
 ## 📦 Common Module
@@ -47,7 +47,7 @@ This project implements a secure microservice-based architecture using JWT for a
 ## 🔐 Authentication Flow
 
 1. **Login**  
-   Clients send a `POST /api/auth/login` request with user credentials.
+   Clients send a `POST /auth/login` request with user credentials.
 
 2. **Token Issuance**  
    The **Auth Service** validates the credentials and issues a **JWT token**.
@@ -62,7 +62,6 @@ This project implements a secure microservice-based architecture using JWT for a
 
 ## 🌐 API Gateway
 
-- **Base URL Prefix**: `/api/**`
 - **Responsibilities**:
   - Route external requests to internal services
   - Validate JWT tokens for secure endpoints
@@ -71,9 +70,9 @@ This project implements a secure microservice-based architecture using JWT for a
 
 | Route Prefix        | Service         |
 |---------------------|-----------------|
-| `/api/auth/**`      | Auth Service    |
-| `/api/users/**`     | User Service    |
-| `/api/products/**`  | Product Service |
+| `/auth/**`      | Auth Service    |
+| `/users/**`     | User Service    |
+| `/products/**`  | Product Service |
 
 ---
 
